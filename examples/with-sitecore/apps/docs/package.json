@@ -1,20 +1,20 @@
 {
   "name": "docs",
   "version": "1.0.0",
-  "type": "module",
   "private": true,
+  "type": "module",	
   "scripts": {
-    "dev": "next dev --port 3001 --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint --max-warnings 0",
-    "check-types": "tsc --noEmit"
+    "dev": "storybook dev -p 6006",
+    "build": "storybook build",
+    "lint": "eslint ./src/**/*.tsx ./src/**/*.ts",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "lint-fix": "next lint --fix"
   },
   "dependencies": {
-    "@repo/ui": "workspace:*",
-    "next": "^15.2.1",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "next": "^14.2.18",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^15.2.1",

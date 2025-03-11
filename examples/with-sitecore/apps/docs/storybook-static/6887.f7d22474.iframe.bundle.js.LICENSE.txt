@@ -1,0 +1,10 @@
+/*! Bundled license information:
+
+@splidejs/react-splide/dist/js/react-splide.esm.js:
+  (*!
+   * Splide.js
+   * Version  : 4.1.3
+   * License  : MIT
+   * Copyright: 2022 Naotoshi Fujita
+   *)
+*/
