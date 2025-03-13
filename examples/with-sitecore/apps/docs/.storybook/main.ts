@@ -1,10 +1,6 @@
 ﻿import type { StorybookConfig } from "@storybook/nextjs";
 import path, { dirname, join } from 'path'; // Import the path module
 import webpack from 'webpack';
-//import type { Configuration } from 'webpack';
-
-//const TerserPlugin = require('terser-webpack-plugin');
-//const threadLoader = require('thread-loader');
 
 const config: StorybookConfig = {
   stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"],
@@ -18,11 +14,18 @@ const config: StorybookConfig = {
     {
       name: "@storybook/addon-themes",
       options: {
-        default: "rai",
+        default: "default",
       },
     },
     getAbsolutePath("@storybook/addon-viewport"), 
-    //getAbsolutePath("@storybook/addon-mdx-gfm")
+    {
+      name: '@storybook/addon-styling-webpack',
+      options: {
+        // Check out https://github.com/storybookjs/addon-styling/blob/main/docs/api.md
+        // For more details on this addon's options.
+        postCss: true
+      }
+    },
     getAbsolutePath("@storybook/addon-interactions"),
 
   ],

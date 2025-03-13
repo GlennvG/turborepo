@@ -1,8 +1,8 @@
 {
-  "extends": "tsconfig/nextjs.json",
+  "extends": "@repo/typescript-config/nextjs.json",
   "compilerOptions": {
     "plugins": [{ "name": "next" }]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/stories/ui/atomic/molecules/AwardSelectEventModal", "src/stories/ui-sitecore/image.stories.tsx.disabled"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
 }

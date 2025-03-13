@@ -9,8 +9,8 @@
       "graphql-types": ["node_modules/@types/graphql-let/__generated__/__types__"],
       "react": ["node_modules/react"]
     },
+    "typeRoots": ["./node_modules/@types"],
     "target": "es5",
-    "types": ["node"],
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,

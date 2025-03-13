@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  transpilePackages: ['ui', 'ui-sitecore'],
+  transpilePackages: [],
   output: "standalone",  
 }
 
