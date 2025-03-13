@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^15.1.6",
+    "@repo/tailwind-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
     "@storybook/addon-essentials": "^8.6.3",
     "@storybook/addon-interactions": "^8.6.3",
@@ -43,7 +44,6 @@
     "postcss": "^8.4.20",
     "storybook": "^8.6.3",
     "tailwindcss": "^3.4.17",
-    "tailwind-config": "workspace:*",
     "typescript": "~5.4.0",
     "webpack": "^5.0.0"
   }
