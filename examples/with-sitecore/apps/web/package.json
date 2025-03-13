@@ -1,10 +1,10 @@
 {
-  "name": "web-nextjs-app",
+  "name": "web",
   "description": "Application utilizing Sitecore JavaScript Services and Next.js",
   "version": "0.1.0",
   "private": true,
   "config": {
-    "appName": "web-nextjs-app",
+    "appName": "web",
     "rootPlaceholders": [
       "jss-main"
     ],
