@@ -1,4 +1,5 @@
 ﻿import type { Preview } from "@storybook/react";
+import "@repo/tailwind-config/styles.css";
 import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
 import { withActions } from "@storybook/addon-actions/decorator";
 import { customViewports } from "./viewports";
